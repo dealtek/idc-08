@@ -57,8 +57,13 @@
 	
     <!-- Customize your app and platform with the preference element. -->
 	
+	
+	<preference name="HideKeyboardFormAccessoryBar" value="true" />
+    <preference name="KeyboardShrinksView" value="false" />
+	
+	
 	<preference name="StatusBarOverlaysWebView" value="true" />
-	<preference name="KeyboardShrinksView" value="true" />	
+	
 	<preference name="StatusBarBackgroundColor" value="#FFF" />
 	
     <preference name="phonegap-version"           value="3.7.0" />          <!-- all: current version of PhoneGap -->
